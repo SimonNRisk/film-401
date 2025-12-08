@@ -45,7 +45,7 @@ export default function Home() {
         </header>
 
         <main
-          className="grid gap-12 md:gap-16 max-w-6xl w-full px-4 md:px-8 justify-items-center"
+          className="grid gap-12 md:gap-16 max-w-6xl w-full justify-items-center"
           style={{
             gridTemplateColumns: isMobile ? '1fr' : 'repeat(2, 1fr)'
           }}
